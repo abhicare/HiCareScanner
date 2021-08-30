@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F5BF3</color>
+    <color name="colorPrimaryDark">#0947E8</color>
+    <color name="colorAccent">#00A5FF</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="outerBlue">#E5ECFF</color>
+    <color name="innerBlue">#7C9DFF</color>
+    <color name="sky">#48b4e0</color>
+
+    <color name="colorAccentOrange">#FF5722</color>
+    <color name="lightorange">#ffff8800</color>
+    <color name="maroon">#8B0000</color>
+    <color name="crimson">#DC143C	</color>
+    <color name="bggrey">#FFDDDDDD</color>
+    <color name="link">#0000FF</color>
+    <color name="teal">#008080</color>
+    <color name="red">#ff0000</color>
+    <color name="indigo">	#4B0082</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="pink_sec">#EC8D8D</color>
+    <color name="dodgeblue">#1E90FF</color>
+    <color name="lightRed">#e76e54</color>
+    <color name="taskOuter">#E5FFF0</color>
+    <color name="taskInner">#217d55</color>
+    <color name="innerGreen">#EDF7ED</color>
+    <color name="outerGreen">#E5FFF0</color>
+    <color name="taskPink">#FFD9D9</color>
+    <color name="barGreenLight">#87FFBB</color>
+    <color name="purple">#D278FE</color>
+    <color name="orange">#E56B00</color>
+
+    <color name="colorAccentDrawerPrimaryDark">#24272c</color>
+    <color name="colorAccentDrawerPrimary">#27313d</color>
+    <color name="colorAccentDrawerPrimaryLight">#424951</color>
+    <color name="colorTextDrawerPrimary">#fff</color>
+    <color name="colorTextDrawerSecondary">#9199a6</color>
+    <color name="black">#000000</color>
+    <color name="darkblack">#cc000000</color>
+    <color name="lightblack">#191919</color>
+    <color name="white">#ffffff</color>
+    <color name="icons">#4AAF4F</color>
+    <color name="dashboard_icons">#4AAF4F</color>
+    <color name="tab_indicatorColor">#0c8c12</color>
+    <color name="tab_textColor">#CFD8DC</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_green">#925AB347</color>
+    <color name="grey">#808080</color>
+    <color name="altgrey">#999999</color>
+    <color name="mint">#98fb98</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="gold">#FFD700</color>
+    <color name="transparent_black">#55000000</color>
+    <color name="transparent_white">#55ffffff</color>
+    <color name="trans_primary">#b32bb77a</color>
+    <color name="transparent_blacke">#b3000000</color>
+    <color name="cv_capture_bg">#55000000</color>
+    <color name="black_shade">#0d0c0a</color>
+    <color name="metal_gray">#2C3539</color>
+    <color name="video_gray">#333333</color>
+    <color name="low">#CCCCCC</color>
+    <color name="yellow">#fce903</color>
+    <color name="skyblue">#D9D9F3</color>
+    <color name="smoke_gray">#F5F5F5</color>
+    <color name="late_pink">#eb9605</color>
+    <color name="colorAccentTransparent">#501f5c10</color>
+</resources>

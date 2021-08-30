@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/loginParent"
+        android:orientation="vertical"
+        tools:context="com.appsnipp.loginsamples.LoginActivity">
+
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:visibility="gone"-->
+            <!--android:weightSum="12">-->
+
+            <!--<LinearLayout-->
+            <!--style="@style/parent"-->
+            <!--android:layout_weight="3"-->
+            <!--android:background="@drawable/login_shape_bk"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--style="@style/parent"-->
+            <!--android:background="@drawable/ic_login_bk"-->
+            <!--android:contentDescription="login background" />-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/layoutLogin"
+                    layout="@layout/layout_login" />
+
+            </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>
