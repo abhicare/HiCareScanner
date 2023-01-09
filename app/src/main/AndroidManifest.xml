@@ -28,7 +28,8 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.HomeActivity" />
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name=".activities.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
