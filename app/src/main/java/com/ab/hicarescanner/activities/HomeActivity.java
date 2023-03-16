@@ -48,6 +48,7 @@ public class HomeActivity extends BaseActivity implements FragmentManager.OnBack
     private Location mLocation;
     private LocationManagerListner mListner;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
