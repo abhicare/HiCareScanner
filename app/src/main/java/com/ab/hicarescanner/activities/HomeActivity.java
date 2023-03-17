@@ -59,6 +59,8 @@ public class HomeActivity extends BaseActivity implements FragmentManager.OnBack
         builder.setLocationListner(this);
         builder.build();
 
+        Toast.makeText(getApplicationContext(),"",Toast.LENGTH_SHORT).show();
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
