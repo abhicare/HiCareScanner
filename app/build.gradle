@@ -10,6 +10,9 @@ android {
         versionCode 3
         versionName "1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        packagingOptions {
+        exclude "lib/armeabi/**"
+    }
     }
     buildTypes {
         release {
