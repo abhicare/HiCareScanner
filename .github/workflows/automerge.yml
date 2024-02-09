@@ -1,37 +1,13 @@
-name: Automerge
+name: Label auto-merge PRs
 
 on:
-  workflow_dispatch:
-  schedule:
-    # You can setup schedule here
-    - cron: '0 0 * * *'
-
-env:
-  # replace "github_username" with your GitHub username
-  # replace "github.com/username/repo.git" with your GitHub repo path
-  # do NOT replace ${{secrets.GITHUB_TOKEN}}, GitHub will take care of it
-  MY_REPO: https://github.com/abhicare:${{secrets.GITHUB_TOKEN}}@github.com/abhicare/HiCareScanner.git
-
-  # replace "long-lived_branch_name" with your branch name
-  MY_BRANCH: dev
-
-  # replace it with the path to master repo
-  MASTER_REPO: https://github.com/abhicare/HiCareScanner
-
-  # replace "master" with your master branch name
-  MASTER_BRANCH: master
-
+  pull_request_target:
+    types: [ auto_merge_enabled, auto_merge_disabled ]
 jobs:
-  merge:
+  add_remove_labels:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Merge with master
-      run: |
-        git clone ${{env.MY_REPO}} -b ${{env.MY_BRANCH}} tmp
-        cd tmp
-        git config user.name "Automerge Bot"
-        git config user.email "bot@example.com"
-        git config pull.rebase false
-        git pull ${{env.MASTER_REPO}} ${{env.MASTER_BRANCH}}
-        git push
+      - uses: ubuntudroid/automerge-labeler@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          label: 'auto-merge' 
